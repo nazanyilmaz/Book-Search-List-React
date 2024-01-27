@@ -1,30 +1,11 @@
-CRUD App
-Create Read Update Delete
+<h1> Booc-searh-react</h1>
 
-Oluştur Oku Düzenle Sil
+<p>
+This is a react project.
+    With this project, you can create a reading list for yourself. 
+    Can edit list elements. 
+    You can delete list elements. A special alert has been developed using Toastify libraries for each transaction made and this project is responsive.
+</p>
 
-Projeye bootstrapi dahil et > index.htmle bootstrap cdni ekle
-1- Yeni eklenicek elamanı almak için form oluştur: form içserisinden gelen verileri al ve state aktar ekle butonuna basıldığı anda forma girilen bilgilerle beraber yeni obje oluştur oluşturulan objenin değerleri: tarih, kitapIsmi, id, okunduMu oluşan objeyi kitaplar isminde bir diziye aktar obje oluşturulduktan inputu sıfırla
-2- books Stateinde tutulan kitapları al ve map methodu ile listele(ekrana bas) > eğer state boşsa ekrana "henüz kitap eklenmedi" yaz > BookCard bileşenine kitap bilgilerini prop olrak gönder > BookCard bileşenin kitapla iligli bütün özellikleri göster
-3- Kitap Silme: > herhangi bir kitabın sil butonuna basıldığında > çalışan fonkisyona silinicek olanın idsi gitsin > gelen idyi fonkisyona parametre olaraka al > silinicek id ye eşit olmayan objeleri al ve bir diziye aktar > oluşan diziyi state aktar
-
-<li>
-    4- Kitabı Okundu Olarak işaretle:
-    > okundu butonuna basılınca çalışan fonkisyona kitabı gönder
-    > kitabın isRead değerini tersine çevir
-    > dizi içerisinde değişecek olan elemanı bul
-    > o elemanı çıkar ve yerine yenisini ekle
-</li>
-
-<li>
-    5- Düzenleme İşlemini Yap:
-    > Düzenle butonuna tıklanıdğında ekrana bir modal çıksın
-    > ve düzenlenicek kitabı app.jse aktarsın (editItem)
-    > Modalda: Kitap ismini değiştirmek için bir input
-    > input her değiştiğinde editItem değişkenini günceller ve app.jse aktarır
-    > Vazgeç Butonu > Modalı Kapatır
-    > Kaydet Butonu > app.jsde bulunan handleEditBook çalıştırır
-    > çalışan fonkisyon diziden eski elemanı çıkarır yerine yenisini koyar
-</li>
-# Book-Search-React
-# Book-Search-React
+<h3>Project Gif</h3>
+![Screen Recording 2024-01-27 at 03 57 51 PM](https://github.com/nazanyilmaz/Book-Search-React/assets/147782488/d52e74b3-e5a5-4157-ae5b-23af23a86428)
