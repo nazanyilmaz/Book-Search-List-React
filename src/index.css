@@ -1,0 +1,33 @@
+.body {
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+  background: url("https://www.bing.com/images/search?view=detailV2&ccid=BhJU4s8h&id=0E24D392C772C69A58F6C4BC32B8666A57BC513E&thid=OIP.BhJU4s8hkduFLEHy8mD0egAAAA&mediaurl=https%3A%2F%2Fi.pinimg.com%2F736x%2F99%2Fcd%2Fd6%2F99cdd652ba64b821f5ecb89f8f08bc5e.jpg&exph=450&expw=378&q=Cartoon+Worm+Book&simid=608020434653635085&form=IRPRST&ck=DAF5A1C2CCABAA05D925B356EEFFAA3D&selectedindex=1&itb=0&ajaxhist=0&ajaxserp=0&cdnurl=https%3A%2F%2Fth.bing.com%2Fth%2Fid%2FR.061254e2cf2191db852c41f2f260f47a%3Frik%3DPlG8V2pmuDK8xA%26pid%3DImgRaw%26r%3D0&pivotparams=insightsToken%3Dccid_CuwTuJdi*cp_48E5A7DEE221BF58690A224750A808D2*mid_522F0954F2D9EA2F72964852334AF12EFF517BB1*simid_608054480848840572*thid_OIP.CuwTuJdi98nq6FaVapmilAAAAA&vt=0&sim=11&iss=VSI&ajaxhist=0&ajaxserp=0");
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.confirm-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(128, 128, 128, 0.415);
+  display: grid;
+  place-items: center;
+  z-index: 10;
+}
+.modal-inner {
+  padding: 70px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.title {
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
